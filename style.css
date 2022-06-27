@@ -1,0 +1,61 @@
+/* styling body */
+body{
+    margin: 0;
+    margin-top: 0.5px;
+    font-family: 'Playball', cursive;
+}
+
+/* body::before{
+    content: "";
+    background: url('/chrome-image.png');
+    height: 100vh;
+    width: 100vw;
+    opacity: 0.8;
+    position: absolute;
+    background-size: cover;
+    z-index: -1;
+} */
+
+
+/* styling input tag */
+input{
+    width: 50vw;
+    /* color: grey; */
+    padding:12px ;
+    box-sizing: border-box;
+    font-size: 12px;
+    box-shadow: inset 1px 1px 2px,
+                inset -1px -1px 2px;
+    margin-bottom: 5px;
+    margin: 3px;
+    min-width: 350px;
+    max-width: 400px;
+    font-family: 'Playball', cursive;
+
+}
+
+
+button{
+    color:white;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    background: rgb(17, 172, 17);
+    height: 28px;
+    width: 95px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 3px;
+    box-shadow: inset 1px 1.5px 2px,
+                inset -1px -1.5px 2px;
+}
+
+ul li{
+    font-size: 12px;
+}
+
+#delete-btn{
+    width: 110px;
+}
